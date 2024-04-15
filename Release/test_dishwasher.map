@@ -1,0 +1,900 @@
+Archive member included because of file (symbol)
+
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                              ./lib/dishwasher_panel.o (__tablejump2__)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              ./lib/dishwasher_panel.o (__do_copy_data)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              ./lib/buttons.o (__do_clear_bss)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              ./FreeRTOS/Source/queue.o (memcpy)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                              ./lib/dishwasher_panel.o (strcpy)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fdevopen.o)
+                              ./lib/mk_uart_printf.o (fdevopen)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+                              c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fdevopen.o) (__iob)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(calloc.o)
+                              c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fdevopen.o) (calloc)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(calloc.o) (malloc)
+c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+                              c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(calloc.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+__flp               0x2               c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+__iob               0x6               c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x00000000        0x0 ./lib/buttons.o
+ .data          0x00000000        0x0 ./lib/buttons.o
+ .bss           0x00000000        0x0 ./lib/buttons.o
+ .text.changeButtonState
+                0x00000000       0x1a ./lib/buttons.o
+ .text          0x00000000        0x0 ./lib/dishwasher_panel.o
+ .data          0x00000000        0x0 ./lib/dishwasher_panel.o
+ .bss           0x00000000        0x0 ./lib/dishwasher_panel.o
+ .text          0x00000000        0x0 ./lib/hd44780pcf8574.o
+ .data          0x00000000        0x0 ./lib/hd44780pcf8574.o
+ .bss           0x00000000        0x0 ./lib/hd44780pcf8574.o
+ .text.HD44780_PCF8574_CheckBF
+                0x00000000        0x2 ./lib/hd44780pcf8574.o
+ .text.HD44780_PCF8574_CursorOn
+                0x00000000        0x6 ./lib/hd44780pcf8574.o
+ .text.HD44780_PCF8574_CursorBlink
+                0x00000000        0x6 ./lib/hd44780pcf8574.o
+ .text.HD44780_PCF8574_DrawChar
+                0x00000000        0x4 ./lib/hd44780pcf8574.o
+ .text.HD44780_PCF8574_Shift
+                0x00000000       0x36 ./lib/hd44780pcf8574.o
+ .text          0x00000000        0x0 ./lib/mk_uart_printf.o
+ .data          0x00000000        0x0 ./lib/mk_uart_printf.o
+ .bss           0x00000000        0x0 ./lib/mk_uart_printf.o
+ .text.put      0x00000000       0x12 ./lib/mk_uart_printf.o
+ .text.printf_init
+                0x00000000       0x1c ./lib/mk_uart_printf.o
+ .comment       0x00000000       0x31 ./lib/mk_uart_printf.o
+ .text          0x00000000        0x0 ./lib/twi.o
+ .data          0x00000000        0x0 ./lib/twi.o
+ .bss           0x00000000        0x0 ./lib/twi.o
+ .text.TWI_Transmit_SLAR
+                0x00000000       0x1c ./lib/twi.o
+ .text.TWI_Receive_Byte
+                0x00000000       0x18 ./lib/twi.o
+ .text.TWI_Error
+                0x00000000        0x2 ./lib/twi.o
+ .bss._twi_error_stat
+                0x00000000        0x1 ./lib/twi.o
+ .text          0x00000000        0x0 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .data          0x00000000        0x0 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .bss           0x00000000        0x0 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .text.pvPortMalloc
+                0x00000000       0x64 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .text.vPortFree
+                0x00000000        0x2 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0xa ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x12 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .bss.pucAlignedHeap.2003
+                0x00000000        0x2 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .bss.xNextFreeByte
+                0x00000000        0x2 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .bss.ucHeap    0x00000000      0x5dc ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .comment       0x00000000       0x31 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .text          0x00000000        0x0 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+ .data          0x00000000        0x0 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+ .bss           0x00000000        0x0 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+ .text.pxPortInitialiseStack
+                0x00000000       0xd8 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+ .text.xPortStartScheduler
+                0x00000000       0x80 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+ .text.vPortEndScheduler
+                0x00000000        0x2 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+ .text.vPortYield
+                0x00000000       0xb2 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+ .text          0x00000000        0x0 ./FreeRTOS/Source/croutine.o
+ .data          0x00000000        0x0 ./FreeRTOS/Source/croutine.o
+ .bss           0x00000000        0x0 ./FreeRTOS/Source/croutine.o
+ .text.xCoRoutineCreate
+                0x00000000       0xe4 ./FreeRTOS/Source/croutine.o
+ .text.vCoRoutineAddToDelayedList
+                0x00000000       0x84 ./FreeRTOS/Source/croutine.o
+ .text.vCoRoutineSchedule
+                0x00000000      0x1da ./FreeRTOS/Source/croutine.o
+ .text.xCoRoutineRemoveFromEventList
+                0x00000000       0x4a ./FreeRTOS/Source/croutine.o
+ .bss.xPassedTicks
+                0x00000000        0x2 ./FreeRTOS/Source/croutine.o
+ .bss.xLastTickCount
+                0x00000000        0x2 ./FreeRTOS/Source/croutine.o
+ .bss.xCoRoutineTickCount
+                0x00000000        0x2 ./FreeRTOS/Source/croutine.o
+ .bss.uxTopCoRoutineReadyPriority
+                0x00000000        0x1 ./FreeRTOS/Source/croutine.o
+ .bss.pxCurrentCoRoutine
+                0x00000000        0x2 ./FreeRTOS/Source/croutine.o
+ .bss.xPendingReadyCoRoutineList
+                0x00000000        0x9 ./FreeRTOS/Source/croutine.o
+ .bss.pxOverflowDelayedCoRoutineList
+                0x00000000        0x2 ./FreeRTOS/Source/croutine.o
+ .bss.pxDelayedCoRoutineList
+                0x00000000        0x2 ./FreeRTOS/Source/croutine.o
+ .bss.xDelayedCoRoutineList2
+                0x00000000        0x9 ./FreeRTOS/Source/croutine.o
+ .bss.xDelayedCoRoutineList1
+                0x00000000        0x9 ./FreeRTOS/Source/croutine.o
+ .bss.pxReadyCoRoutineLists
+                0x00000000       0x12 ./FreeRTOS/Source/croutine.o
+ .comment       0x00000000       0x31 ./FreeRTOS/Source/croutine.o
+ .text          0x00000000        0x0 ./FreeRTOS/Source/event_groups.o
+ .data          0x00000000        0x0 ./FreeRTOS/Source/event_groups.o
+ .bss           0x00000000        0x0 ./FreeRTOS/Source/event_groups.o
+ .text.xEventGroupCreate
+                0x00000000       0x26 ./FreeRTOS/Source/event_groups.o
+ .text.xEventGroupWaitBits
+                0x00000000       0xf0 ./FreeRTOS/Source/event_groups.o
+ .text.xEventGroupClearBits
+                0x00000000       0x1e ./FreeRTOS/Source/event_groups.o
+ .text.xEventGroupGetBitsFromISR
+                0x00000000        0x8 ./FreeRTOS/Source/event_groups.o
+ .text.xEventGroupSetBits
+                0x00000000       0xaa ./FreeRTOS/Source/event_groups.o
+ .text.xEventGroupSync
+                0x00000000       0xd6 ./FreeRTOS/Source/event_groups.o
+ .text.vEventGroupDelete
+                0x00000000       0x2c ./FreeRTOS/Source/event_groups.o
+ .text.vEventGroupSetBitsCallback
+                0x00000000        0x6 ./FreeRTOS/Source/event_groups.o
+ .text.vEventGroupClearBitsCallback
+                0x00000000        0x6 ./FreeRTOS/Source/event_groups.o
+ .comment       0x00000000       0x31 ./FreeRTOS/Source/event_groups.o
+ .text          0x00000000        0x0 ./FreeRTOS/Source/list.o
+ .data          0x00000000        0x0 ./FreeRTOS/Source/list.o
+ .bss           0x00000000        0x0 ./FreeRTOS/Source/list.o
+ .text.vListInitialise
+                0x00000000       0x1c ./FreeRTOS/Source/list.o
+ .text.vListInitialiseItem
+                0x00000000        0x8 ./FreeRTOS/Source/list.o
+ .text.vListInsert
+                0x00000000       0x70 ./FreeRTOS/Source/list.o
+ .text          0x00000000        0x0 ./FreeRTOS/Source/queue.o
+ .data          0x00000000        0x0 ./FreeRTOS/Source/queue.o
+ .bss           0x00000000        0x0 ./FreeRTOS/Source/queue.o
+ .text.prvCopyDataToQueue
+                0x00000000       0x94 ./FreeRTOS/Source/queue.o
+ .text.prvCopyDataFromQueue
+                0x00000000       0x34 ./FreeRTOS/Source/queue.o
+ .text.prvUnlockQueue
+                0x00000000       0x7c ./FreeRTOS/Source/queue.o
+ .text.xQueueGenericReset
+                0x00000000       0x74 ./FreeRTOS/Source/queue.o
+ .text.xQueueGenericCreate
+                0x00000000       0x52 ./FreeRTOS/Source/queue.o
+ .text.xQueueGenericSend
+                0x00000000      0x134 ./FreeRTOS/Source/queue.o
+ .text.xQueueGenericSendFromISR
+                0x00000000       0x5c ./FreeRTOS/Source/queue.o
+ .text.xQueueGiveFromISR
+                0x00000000       0x4a ./FreeRTOS/Source/queue.o
+ .text.xQueueGenericReceive
+                0x00000000      0x148 ./FreeRTOS/Source/queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0x5a ./FreeRTOS/Source/queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x2e ./FreeRTOS/Source/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x10 ./FreeRTOS/Source/queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x14 ./FreeRTOS/Source/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000        0x6 ./FreeRTOS/Source/queue.o
+ .text.vQueueDelete
+                0x00000000        0x4 ./FreeRTOS/Source/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000        0xc ./FreeRTOS/Source/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000        0xe ./FreeRTOS/Source/queue.o
+ .comment       0x00000000       0x31 ./FreeRTOS/Source/queue.o
+ .text          0x00000000        0x0 ./FreeRTOS/Source/tasks.o
+ .data          0x00000000        0x0 ./FreeRTOS/Source/tasks.o
+ .bss           0x00000000        0x0 ./FreeRTOS/Source/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x00000000       0x70 ./FreeRTOS/Source/tasks.o
+ .text.xTaskGenericCreate
+                0x00000000      0x1f4 ./FreeRTOS/Source/tasks.o
+ .text.vTaskDelete
+                0x00000000       0x8e ./FreeRTOS/Source/tasks.o
+ .rodata.str1.1
+                0x00000000        0x5 ./FreeRTOS/Source/tasks.o
+ .text.vTaskStartScheduler
+                0x00000000       0x64 ./FreeRTOS/Source/tasks.o
+ .text.vTaskEndScheduler
+                0x00000000        0xa ./FreeRTOS/Source/tasks.o
+ .text.vTaskSuspendAll
+                0x00000000        0xc ./FreeRTOS/Source/tasks.o
+ .text.xTaskGetTickCount
+                0x00000000       0x14 ./FreeRTOS/Source/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000        0xa ./FreeRTOS/Source/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0x6 ./FreeRTOS/Source/tasks.o
+ .text.xTaskResumeAll
+                0x00000000       0xe0 ./FreeRTOS/Source/tasks.o
+ .text.vTaskDelayUntil
+                0x00000000       0x78 ./FreeRTOS/Source/tasks.o
+ .text.vTaskDelay
+                0x00000000       0x42 ./FreeRTOS/Source/tasks.o
+ .text.prvIdleTask
+                0x00000000       0x6c ./FreeRTOS/Source/tasks.o
+ .text.vTaskPlaceOnEventList
+                0x00000000       0x38 ./FreeRTOS/Source/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x46 ./FreeRTOS/Source/tasks.o
+ .text.xTaskRemoveFromEventList
+                0x00000000       0x80 ./FreeRTOS/Source/tasks.o
+ .text.xTaskRemoveFromUnorderedEventList
+                0x00000000       0x68 ./FreeRTOS/Source/tasks.o
+ .text.vTaskSetTimeOutState
+                0x00000000       0x16 ./FreeRTOS/Source/tasks.o
+ .text.xTaskCheckForTimeOut
+                0x00000000       0x58 ./FreeRTOS/Source/tasks.o
+ .text.vTaskMissedYield
+                0x00000000        0x8 ./FreeRTOS/Source/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x2e ./FreeRTOS/Source/tasks.o
+ .text.ulTaskNotifyTake
+                0x00000000       0xc6 ./FreeRTOS/Source/tasks.o
+ .text.xTaskNotifyWait
+                0x00000000      0x126 ./FreeRTOS/Source/tasks.o
+ .text.xTaskNotify
+                0x00000000       0xba ./FreeRTOS/Source/tasks.o
+ .text.xTaskNotifyFromISR
+                0x00000000       0xd8 ./FreeRTOS/Source/tasks.o
+ .text.vTaskNotifyGiveFromISR
+                0x00000000       0x9e ./FreeRTOS/Source/tasks.o
+ .bss.uxTaskNumber
+                0x00000000        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.xSchedulerRunning
+                0x00000000        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x00000000        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.uxTasksDeleted
+                0x00000000        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.xTasksWaitingTermination
+                0x00000000        0x9 ./FreeRTOS/Source/tasks.o
+ .bss.xPendingReadyList
+                0x00000000        0x9 ./FreeRTOS/Source/tasks.o
+ .bss.xDelayedTaskList2
+                0x00000000        0x9 ./FreeRTOS/Source/tasks.o
+ .bss.xDelayedTaskList1
+                0x00000000        0x9 ./FreeRTOS/Source/tasks.o
+ .text          0x00000000        0x0 ./FreeRTOS/Source/timers.o
+ .data          0x00000000        0x0 ./FreeRTOS/Source/timers.o
+ .bss           0x00000000        0x0 ./FreeRTOS/Source/timers.o
+ .comment       0x00000000       0x31 ./FreeRTOS/Source/timers.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text.avr-libc
+                0x00000000       0x12 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fdevopen.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fdevopen.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fdevopen.o)
+ .text.avr-libc
+                0x00000000       0x96 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fdevopen.o)
+ .comment       0x00000000       0x31 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fdevopen.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ .comment       0x00000000       0x31 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ COMMON         0x00000000        0x6 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(iob.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .text.avr-libc
+                0x00000000       0x38 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .comment       0x00000000       0x31 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(calloc.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .data          0x00000000        0x6 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text.avr-libc
+                0x00000000      0x24e c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .comment       0x00000000       0x31 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ COMMON         0x00000000        0x4 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .data          0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .bss           0x00000000        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+ .text.avr-libc
+                0x00000000        0xe c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD ./lib/buttons.o
+LOAD ./lib/dishwasher_panel.o
+LOAD ./lib/hd44780pcf8574.o
+LOAD ./lib/mk_uart_printf.o
+LOAD ./lib/twi.o
+LOAD ./FreeRTOS/Source/portable/MemMang/heap_1.o
+LOAD ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+LOAD ./FreeRTOS/Source/croutine.o
+LOAD ./FreeRTOS/Source/event_groups.o
+LOAD ./FreeRTOS/Source/list.o
+LOAD ./FreeRTOS/Source/queue.o
+LOAD ./FreeRTOS/Source/tasks.o
+LOAD ./FreeRTOS/Source/timers.o
+LOAD ./main.o
+START GROUP
+LOAD c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libatmega328p.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x9e0
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.DishwasherPanel_Update
+                0x00000068       0x38 ./lib/dishwasher_panel.o
+                0x000000a0                . = ALIGN (0x2)
+                0x000000a0                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000a0        0x0 linker stubs
+ *(.trampolines*)
+                0x000000a0                __trampolines_end = .
+ *(.progmem*)
+                0x000000a0                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000a0                __ctors_start = .
+ *(.ctors)
+                0x000000a0                __ctors_end = .
+                0x000000a0                __dtors_start = .
+ *(.dtors)
+                0x000000a0                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000a0        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x000000a0                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000a0        0xc c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000ac       0x16 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x000000ac                __do_copy_data
+ .init4         0x000000c2       0x10 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x000000c2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000d2        0x8 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000da        0x4 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+                0x000000da                __vector_22
+                0x000000da                __vector_1
+                0x000000da                __vector_24
+                0x000000da                __vector_12
+                0x000000da                __bad_interrupt
+                0x000000da                __vector_6
+                0x000000da                __vector_3
+                0x000000da                __vector_23
+                0x000000da                __vector_25
+                0x000000da                __vector_13
+                0x000000da                __vector_17
+                0x000000da                __vector_19
+                0x000000da                __vector_7
+                0x000000da                __vector_5
+                0x000000da                __vector_4
+                0x000000da                __vector_9
+                0x000000da                __vector_2
+                0x000000da                __vector_21
+                0x000000da                __vector_15
+                0x000000da                __vector_8
+                0x000000da                __vector_14
+                0x000000da                __vector_10
+                0x000000da                __vector_16
+                0x000000da                __vector_18
+                0x000000da                __vector_20
+                0x000000de                . = ALIGN (0x2)
+ *(.text.*)
+ .text.initializePins
+                0x000000de       0x18 ./lib/buttons.o
+                0x000000de                initializePins
+ .text.checkButtons
+                0x000000f6      0x12c ./lib/buttons.o
+                0x000000f6                checkButtons
+ .text.DishwasherPanel
+                0x00000222       0x9a ./lib/dishwasher_panel.o
+                0x00000222                DishwasherPanel
+ .text.DishwasherPanel_Update
+                0x000002bc      0x158 ./lib/dishwasher_panel.o
+                0x000002bc                DishwasherPanel_Update
+ .text.HD44780_PCF8574_E_pulse
+                0x00000414       0x26 ./lib/hd44780pcf8574.o
+                0x00000414                HD44780_PCF8574_E_pulse
+ .text.HD44780_PCF8574_Send_4bits_M4b_I
+                0x0000043a       0x10 ./lib/hd44780pcf8574.o
+                0x0000043a                HD44780_PCF8574_Send_4bits_M4b_I
+ .text.HD44780_PCF8574_Send_8bits_M4b_I
+                0x0000044a       0x46 ./lib/hd44780pcf8574.o
+                0x0000044a                HD44780_PCF8574_Send_8bits_M4b_I
+ .text.HD44780_PCF8574_SendInstruction
+                0x00000490       0x1a ./lib/hd44780pcf8574.o
+                0x00000490                HD44780_PCF8574_SendInstruction
+ .text.HD44780_PCF8574_Init
+                0x000004aa       0x90 ./lib/hd44780pcf8574.o
+                0x000004aa                HD44780_PCF8574_Init
+ .text.HD44780_PCF8574_SendData
+                0x0000053a        0x6 ./lib/hd44780pcf8574.o
+                0x0000053a                HD44780_PCF8574_SendData
+ .text.HD44780_PCF8574_PositionXY
+                0x00000540       0x22 ./lib/hd44780pcf8574.o
+                0x00000540                HD44780_PCF8574_PositionXY
+ .text.HD44780_PCF8574_DisplayClear
+                0x00000562        0x6 ./lib/hd44780pcf8574.o
+                0x00000562                HD44780_PCF8574_DisplayClear
+ .text.HD44780_PCF8574_DisplayOn
+                0x00000568        0x6 ./lib/hd44780pcf8574.o
+                0x00000568                HD44780_PCF8574_DisplayOn
+ .text.HD44780_PCF8574_DrawString
+                0x0000056e       0x20 ./lib/hd44780pcf8574.o
+                0x0000056e                HD44780_PCF8574_DrawString
+ .text.TWI_Init
+                0x0000058e       0x18 ./lib/twi.o
+                0x0000058e                TWI_Init
+ .text.TWI_MT_Start
+                0x000005a6       0x14 ./lib/twi.o
+                0x000005a6                TWI_MT_Start
+ .text.TWI_Transmit_SLAW
+                0x000005ba       0x1a ./lib/twi.o
+                0x000005ba                TWI_Transmit_SLAW
+ .text.TWI_Transmit_Byte
+                0x000005d4       0x18 ./lib/twi.o
+                0x000005d4                TWI_Transmit_Byte
+ .text.TWI_Stop
+                0x000005ec        0x8 ./lib/twi.o
+                0x000005ec                TWI_Stop
+ .text.vPortYieldFromTick
+                0x000005f4       0xb8 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+                0x000005f4                vPortYieldFromTick
+ .text.__vector_11
+                0x000006ac        0x6 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+                0x000006ac                __vector_11
+ .text.vListInsertEnd
+                0x000006b2       0x42 ./FreeRTOS/Source/list.o
+                0x000006b2                vListInsertEnd
+ .text.uxListRemove
+                0x000006f4       0x46 ./FreeRTOS/Source/list.o
+                0x000006f4                uxListRemove
+ .text.prvResetNextTaskUnblockTime
+                0x0000073a       0x36 ./FreeRTOS/Source/tasks.o
+ .text.xTaskIncrementTick
+                0x00000770      0x15e ./FreeRTOS/Source/tasks.o
+                0x00000770                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x000008ce       0x98 ./FreeRTOS/Source/tasks.o
+                0x000008ce                vTaskSwitchContext
+ .text.startup.main
+                0x00000966       0x5c ./main.o
+                0x00000966                main
+ .text.libgcc   0x000009c2        0xc c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x000009c2                __tablejump2__
+ .text.avr-libc
+                0x000009ce        0xe c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x000009ce                strcpy
+                0x000009dc                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000009dc        0x0 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000009dc                _exit
+                0x000009dc                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000009dc        0x4 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000009e0                _etext = .
+
+.data           0x00800100       0xf4 load address 0x000009e0
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.BottomText.1937
+                0x00800100       0x14 ./lib/dishwasher_panel.o
+ .data.TopText.1936
+                0x00800114       0x14 ./lib/dishwasher_panel.o
+ .data.xNextTaskUnblockTime
+                0x00800128        0x2 ./FreeRTOS/Source/tasks.o
+ *(.rodata)
+ .rodata        0x0080012a       0x28 ./lib/dishwasher_panel.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800152       0xa2 ./lib/dishwasher_panel.o
+ *(.gnu.linkonce.d*)
+                0x008001f4                . = ALIGN (0x2)
+                0x008001f4                _edata = .
+                0x008001f4                PROVIDE (__data_end, .)
+
+.bss            0x008001f4       0x3a
+                0x008001f4                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.button5Pressed.1622
+                0x008001f4        0x1 ./lib/buttons.o
+ .bss.button4Pressed.1621
+                0x008001f5        0x1 ./lib/buttons.o
+ .bss.lastButtonState
+                0x008001f6        0x5 ./lib/buttons.o
+                0x008001f6                lastButtonState
+ .bss.prevLedStatesInt
+                0x008001fb        0x2 ./lib/dishwasher_panel.o
+ .bss.uxSchedulerSuspended
+                0x008001fd        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.xNumOfOverflows
+                0x008001fe        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.xYieldPending
+                0x008001ff        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.uxPendedTicks
+                0x00800200        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.uxTopReadyPriority
+                0x00800201        0x1 ./FreeRTOS/Source/tasks.o
+ .bss.xTickCount
+                0x00800202        0x2 ./FreeRTOS/Source/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x00800204        0x2 ./FreeRTOS/Source/tasks.o
+ .bss.pxDelayedTaskList
+                0x00800206        0x2 ./FreeRTOS/Source/tasks.o
+ .bss.pxReadyTasksLists
+                0x00800208       0x24 ./FreeRTOS/Source/tasks.o
+ .bss.pxCurrentTCB
+                0x0080022c        0x2 ./FreeRTOS/Source/tasks.o
+                0x0080022c                pxCurrentTCB
+ *(COMMON)
+                0x0080022e                PROVIDE (__bss_end, .)
+                0x000009e0                __data_load_start = LOADADDR (.data)
+                0x00000ad4                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080022e        0x0
+                0x0080022e                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080022e                PROVIDE (__noinit_end, .)
+                0x0080022e                _end = .
+                0x0080022e                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 ./lib/buttons.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 ./lib/dishwasher_panel.o
+ .comment       0x00000000       0x31 ./lib/hd44780pcf8574.o
+ .comment       0x00000000       0x31 ./lib/twi.o
+ .comment       0x00000000       0x31 ./FreeRTOS/Source/portable/GCC/ATMega328/port.o
+ .comment       0x00000000       0x31 ./FreeRTOS/Source/list.o
+ .comment       0x00000000       0x31 ./FreeRTOS/Source/tasks.o
+ .comment       0x00000000       0x31 ./main.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x00000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x00000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x208
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 c:/users/pc-komp/documents/mkclipse/avr toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(test_dishwasher.elf elf32-avr)
+LOAD linker stubs

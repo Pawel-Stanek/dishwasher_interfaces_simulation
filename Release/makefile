@@ -8,6 +8,10 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include lib/subdir.mk
+-include FreeRTOS/Source/portable/MemMang/subdir.mk
+-include FreeRTOS/Source/portable/GCC/ATMega328/subdir.mk
+-include FreeRTOS/Source/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -34,22 +38,26 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := Diode_01
+BUILD_ARTIFACT_NAME := test_dishwasher
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 LSS += \
-Diode_01.lss \
+test_dishwasher.lss \
+test_dishwasher.lss \
 
 FLASH_IMAGE += \
-Diode_01.hex \
+test_dishwasher.hex \
+test_dishwasher.hex \
 
 EEPROM_IMAGE += \
-Diode_01.eep \
+test_dishwasher.eep \
+test_dishwasher.eep \
 
 SIZEDUMMY += \
+sizedummy \
 sizedummy \
 
 
@@ -57,43 +65,43 @@ sizedummy \
 all: main-build
 
 # Main-build Target
-main-build: Diode_01.elf secondary-outputs
+main-build: test_dishwasher.elf secondary-outputs
 
 # Tool invocations
-Diode_01.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+test_dishwasher.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C Linker'
-	avr-gcc -Wl,-Map,Diode_01.map -mmcu=atmega328p -o "Diode_01.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-gcc -Wl,-Map,test_dishwasher.map -Wl,--gc-sections -mmcu=atmega328p -o "test_dishwasher.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-Diode_01.lss: Diode_01.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+test_dishwasher.lss: test_dishwasher.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: AVR Create Extended Listing'
-	-avr-objdump -h -S Diode_01.elf  >"Diode_01.lss"
+	-avr-objdump -h -S test_dishwasher.elf  >"test_dishwasher.lss"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Diode_01.hex: Diode_01.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+test_dishwasher.hex: test_dishwasher.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Create Flash image (ihex format)'
-	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Diode_01.elf  "Diode_01.hex"
+	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex test_dishwasher.elf  "test_dishwasher.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Diode_01.eep: Diode_01.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+test_dishwasher.eep: test_dishwasher.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Create eeprom image (ihex format)'
-	-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex Diode_01.elf  "Diode_01.eep"
+	-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex test_dishwasher.elf  "test_dishwasher.eep"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-sizedummy: Diode_01.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+sizedummy: test_dishwasher.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: Print Size'
-	-avr-size --format=avr --mcu=atmega328p Diode_01.elf
+	-avr-size --format=avr --mcu=atmega328p test_dishwasher.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(EEPROM_IMAGE)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) Diode_01.elf
+	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(EEPROM_IMAGE)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) test_dishwasher.elf
 	-@echo ' '
 
 secondary-outputs: $(LSS) $(FLASH_IMAGE) $(EEPROM_IMAGE) $(SIZEDUMMY)
